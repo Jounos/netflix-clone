@@ -1,10 +1,18 @@
 import React from 'react';
 import './FeaturedMovie.css'
 
-export default () => {
+export default ({item}) => {
     return (
-        <div>
-            Filme em destaque
-        </div>
+        <section className="featured" style={{
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundImage: `url(https://image.tmdb.org/t/p/original${item.backdrop_path})`
+        }}>
+            <div className="fatured--vertical">
+                <div className="featured-horizontal">
+                    
+                </div>
+            </div>
+        </section>
     );
 }
