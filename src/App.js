@@ -52,6 +52,12 @@ export default () => {
 					<MovieRow key={key} title={item.title} items={item.items}/>
 				))}
 			</section>
+
+			<footer>
+				Feito com por Geovanny Neves Liberato<br/>
+				Direitos de imagem para netflix<br/>
+				Dados pegos do site Themoviedb.org
+			</footer>
 		</div>
 	);
 }
